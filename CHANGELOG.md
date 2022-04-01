@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/matisimone/ms-ngx-library/compare/v1.0.0...v1.1.0) (2022-04-01)
+
+
+### Features
+
+* **lib:** fixed issue ([9babe3f](https://github.com/matisimone/ms-ngx-library/commit/9babe3f30f1c1ca1c91ad69b2fe094fe7a73d760))
+
 # 1.0.0 (2022-04-01)
 
 
