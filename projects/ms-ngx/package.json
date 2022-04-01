@@ -1,5 +1,5 @@
 {
-  "name": "ms-ngx",
+  "name": "@matisimone/ms-ngx",
   "version": "1.0.0",
   "peerDependencies": {
     "@angular/common": "^13.3.0",
