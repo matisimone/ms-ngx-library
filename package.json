@@ -1,6 +1,6 @@
 {
   "name": "ms-ngx-library",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -15,7 +15,8 @@
     "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
     "storybook": "npm run docs:json && start-storybook -p 6006",
     "build-storybook": "npm run docs:json && build-storybook",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "semantic-release": "semantic-release"
   },
   "private": true,
   "dependencies": {
@@ -41,6 +42,8 @@
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
     "@compodoc/compodoc": "^1.1.19",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "@storybook/addon-actions": "^6.5.0-alpha.52",
     "@storybook/addon-essentials": "^6.5.0-alpha.52",
     "@storybook/addon-interactions": "^6.5.0-alpha.52",
@@ -61,6 +64,12 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "ng-packagr": "^13.0.0",
-    "typescript": "~4.6.2"
+    "semantic-release-cli": "^5.4.4",
+    "typescript": "~4.6.2",
+    "semantic-release": "^19.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matisimone/ms-ngx-library.git"
   }
 }
